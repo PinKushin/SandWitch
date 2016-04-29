@@ -13,7 +13,7 @@ if hspddir != 0 {
    if hspd > dxspd { hspd = dxspd }
    if hspd < -dxspd { hspd = dxspd }
 }else{
-      hspd = 0;
+     hspd = 0;
 }
 
 if vspddir != 0 {

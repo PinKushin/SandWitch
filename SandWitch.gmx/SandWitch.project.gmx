@@ -17,13 +17,10 @@
       <sprite>sprites\smusic</sprite>
       <sprite>sprites\smenu</sprite>
       <sprite>sprites\soptions</sprite>
-      <sprite>sprites\sbutton</sprite>
       <sprite>sprites\splayerstats</sprite>
     </sprites>
     <sprites name="gui">
-      <sprite>sprites\sstartbutton</sprite>
-      <sprite>sprites\sexitbutton</sprite>
-      <sprite>sprites\soptionsbutton</sprite>
+      <sprite>sprites\sbutton</sprite>
       <sprites name="fonts">
         <sprite>sprites\sstatfont</sprite>
       </sprites>
