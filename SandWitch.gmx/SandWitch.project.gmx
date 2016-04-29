@@ -4,16 +4,31 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\amenu</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\splayer</sprite>
     </sprites>
     <sprites name="helper">
       <sprite>sprites\swall</sprite>
+      <sprite>sprites\spart</sprite>
+      <sprite>sprites\smusic</sprite>
+      <sprite>sprites\smenu</sprite>
+      <sprite>sprites\soptions</sprite>
+      <sprite>sprites\sbutton</sprite>
+      <sprite>sprites\splayerstats</sprite>
+    </sprites>
+    <sprites name="gui">
+      <sprite>sprites\sstartbutton</sprite>
+      <sprite>sprites\sexitbutton</sprite>
+      <sprite>sprites\soptionsbutton</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bmenu</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="helper">
@@ -24,24 +39,18 @@
       <script>scripts\movestate.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\ftitle</font>
+  </fonts>
   <objects name="objects">
     <objects name="player">
       <object>objects\oplayer</object>
+      <object>objects\oplayerstats</object>
     </objects>
     <objects name="parents">
       <object>objects\osolidpar</object>
       <object>objects\oenemypar</object>
-    </objects>
-    <objects name="sandwitch">
-      <object>objects\obread</object>
-      <object>objects\oham</object>
-      <object>objects\oturkey</object>
-      <object>objects\ocheddar</object>
-      <object>objects\oswiss</object>
-      <object>objects\oparm</object>
-      <object>objects\owheat</object>
-      <object>objects\opepperoni</object>
-      <object>objects\obeef</object>
+      <object>objects\obuttonpar</object>
     </objects>
     <objects name="particles">
       <object>objects\ops</object>
@@ -49,10 +58,19 @@
     <objects name="game">
       <object>objects\omenu</object>
       <object>objects\omusic</object>
+      <object>objects\ooptions</object>
+    </objects>
+    <objects name="gui">
+      <object>objects\ostartbutton</object>
+      <object>objects\oexitbutton</object>
+      <object>objects\ooptionbutton</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmenu</room>
     <room>rooms\rtest</room>
+    <room>rooms\roptions</room>
+    <room>rooms\rpause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

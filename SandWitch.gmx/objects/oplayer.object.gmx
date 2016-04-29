@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///initialise player
 state = movestate;
-spd = 4;
+spd = 300 / room_speed;
 hspd = 0;
 vspd = 0;
 
@@ -55,10 +55,9 @@ vspd = 0;
           <argument>
             <kind>1</kind>
             <string>///execute current state
+getinput();
 script_execute (state);
-
 depth = -y
-
 </string>
           </argument>
         </arguments>
