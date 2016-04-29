@@ -24,6 +24,9 @@
       <sprite>sprites\sstartbutton</sprite>
       <sprite>sprites\sexitbutton</sprite>
       <sprite>sprites\soptionsbutton</sprite>
+      <sprites name="fonts">
+        <sprite>sprites\sstatfont</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -34,6 +37,7 @@
     <scripts name="helper">
       <script>scripts\getinput.gml</script>
       <script>scripts\move.gml</script>
+      <script>scripts\drawtextoutline.gml</script>
     </scripts>
     <scripts name="player states">
       <script>scripts\movestate.gml</script>
@@ -59,6 +63,7 @@
       <object>objects\omenu</object>
       <object>objects\omusic</object>
       <object>objects\ooptions</object>
+      <object>objects\ofonts</object>
     </objects>
     <objects name="gui">
       <object>objects\ostartbutton</object>
