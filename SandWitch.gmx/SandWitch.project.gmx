@@ -22,12 +22,14 @@
     <sprites name="gui">
       <sprite>sprites\sbutton</sprite>
       <sprites name="fonts">
-        <sprite>sprites\sstatfont</sprite>
+        <sprite>sprites\smainfont</sprite>
+        <sprite>sprites\stitlefont</sprite>
       </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bmenu</background>
+    <background>background\bcredits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -61,11 +63,13 @@
       <object>objects\omusic</object>
       <object>objects\ooptions</object>
       <object>objects\ofonts</object>
+      <object>objects\ocredits</object>
     </objects>
     <objects name="gui">
       <object>objects\ostartbutton</object>
       <object>objects\oexitbutton</object>
       <object>objects\ooptionbutton</object>
+      <object>objects\ocreditsbutton</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -73,6 +77,7 @@
     <room>rooms\rtest</room>
     <room>rooms\roptions</room>
     <room>rooms\rpause</room>
+    <room>rooms\rcredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
