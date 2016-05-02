@@ -10,6 +10,7 @@
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\splayer</sprite>
+      <sprite>sprites\splayermask</sprite>
       <sprite>sprites\splayerdamage</sprite>
       <sprites name="spells">
         <sprite>sprites\sspellflare</sprite>
