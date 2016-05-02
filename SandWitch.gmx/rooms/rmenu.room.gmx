@@ -61,6 +61,7 @@
     <instance objName="oplayerstats" x="128" y="0" name="inst_F057A393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ofonts" x="160" y="0" name="inst_F965BDF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ocreditsbutton" x="512" y="544" name="inst_72183321" locked="0" code="" scaleX="2" scaleY="1.96774196624756" colour="4294967295" rotation="0"/>
+    <instance objName="ospellcontroller" x="224" y="32" name="inst_06FD225D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

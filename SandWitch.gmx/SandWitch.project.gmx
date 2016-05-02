@@ -10,6 +10,10 @@
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\splayer</sprite>
+      <sprite>sprites\splayerdamage</sprite>
+      <sprites name="spells">
+        <sprite>sprites\sspellflare</sprite>
+      </sprites>
     </sprites>
     <sprites name="helper">
       <sprite>sprites\swall</sprite>
@@ -26,6 +30,9 @@
         <sprite>sprites\stitlefont</sprite>
       </sprites>
     </sprites>
+    <sprites name="enemys">
+      <sprite>sprites\senemy</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bmenu</background>
@@ -37,9 +44,18 @@
       <script>scripts\getinput.gml</script>
       <script>scripts\move.gml</script>
       <script>scripts\drawtextoutline.gml</script>
+      <script>scripts\facing.gml</script>
+      <script>scripts\animatesprite.gml</script>
     </scripts>
     <scripts name="player states">
       <script>scripts\movestate.gml</script>
+      <script>scripts\attackstate.gml</script>
+      <script>scripts\cookingstate.gml</script>
+      <script>scripts\dashstate.gml</script>
+      <script>scripts\spellstate.gml</script>
+    </scripts>
+    <scripts name="enemy states">
+      <script>scripts\enemymove.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -49,14 +65,15 @@
     <objects name="player">
       <object>objects\oplayer</object>
       <object>objects\oplayerstats</object>
+      <objects name="spells">
+        <object>objects\ofirespell</object>
+      </objects>
     </objects>
     <objects name="parents">
       <object>objects\osolidpar</object>
       <object>objects\oenemypar</object>
       <object>objects\obuttonpar</object>
-    </objects>
-    <objects name="particles">
-      <object>objects\ops</object>
+      <object>objects\ospellpar</object>
     </objects>
     <objects name="game">
       <object>objects\omenu</object>
@@ -64,6 +81,8 @@
       <object>objects\ooptions</object>
       <object>objects\ofonts</object>
       <object>objects\ocredits</object>
+      <object>objects\ops</object>
+      <object>objects\ospellcontroller</object>
     </objects>
     <objects name="gui">
       <object>objects\ostartbutton</object>
@@ -71,7 +90,13 @@
       <object>objects\ooptionbutton</object>
       <object>objects\ocreditsbutton</object>
     </objects>
+    <objects name="enemys">
+      <object>objects\oenemy</object>
+    </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tenemytest</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rmenu</room>
     <room>rooms\rtest</room>

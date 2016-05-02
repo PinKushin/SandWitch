@@ -30,7 +30,8 @@ hp = 3;
 maxhp = hp;
 mana = 5;
 maxmana = mana;
-
+stamina = 5;
+maxstamina = stamina;
 
 </string>
           </argument>
@@ -103,8 +104,9 @@ switch room {
             draw_set_color(c_white);
             draw_set_halign(fa_left);
             draw_set_valign(fa_top);
-            draw_text(64, 32, "HP:" + string(hp));
-            draw_text(64, 64, "Mana:" + string(mana));
+            draw_text(64, 64, "HP:" + string(hp) + "/" + string(maxhp));
+            draw_text(64, 96, "Mana:" + string(round(mana)) + "/" + string(maxmana));
+            draw_text(64, 128, "Stamina:" + string(round(stamina)) + "/" + string(maxstamina));
     break;
 }
 </string>

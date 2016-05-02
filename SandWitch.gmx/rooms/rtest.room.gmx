@@ -56,6 +56,11 @@
     <instance objName="osolidpar" x="128" y="224" name="inst_1136F488" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="osolidpar" x="320" y="160" name="inst_93CF3B4E" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="osolidpar" x="224" y="192" name="inst_267E40CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="osolidpar" x="32" y="0" name="inst_812F217B" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="osolidpar" x="0" y="32" name="inst_98A6F7E0" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="osolidpar" x="0" y="704" name="inst_11E60960" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="osolidpar" x="960" y="0" name="inst_FD35D443" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="oenemy" x="608" y="384" name="inst_6E078968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
